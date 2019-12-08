@@ -57,6 +57,22 @@
       <version>${mockito.version}</version>
     </dependency>
   </dependencies>
+         <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>TechVerito</name>
+	      <url>http://172.31.33.28:8081/repository/TechVerito/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>TechVerito-snapshot</name>
+	      <url>http://172.31.33.28:8081/repository/TechVerito_snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+         
 
   <build>
     <plugins>
