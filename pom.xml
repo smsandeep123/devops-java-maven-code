@@ -10,21 +10,6 @@
   <version>2.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-    <!-- This configures the compiler to produce Java 8 class files. -->
-    <!-- The minimum JDK version installed is 8 of course, but newer JDK releases should work too. -->
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
-
-    <junit.jupiter.version>5.2.0</junit.jupiter.version>
-    <junit.platform.version>1.2.0</junit.platform.version>
-    <hamcrest.version>1.3</hamcrest.version>
-    <mockito.version>2.21.0</mockito.version>
-    <jacoco.plugin.version>0.8.1</jacoco.plugin.version>
-  </properties>
 	
 	<properties>
 		<jdk.version>1.8</jdk.version>
