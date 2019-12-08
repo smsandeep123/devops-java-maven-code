@@ -63,6 +63,13 @@
       <version>${mockito.version}</version>
     </dependency>
   </dependencies>
+	
+	<repositories>
+	<repository>
+	<id>nexus</id>
+	<url>http://172.31.33.28/repository/ProxyRepo/</url>
+	</repository>
+	</repositories>
          <distributionManagement>
 	
 	    <repository>
